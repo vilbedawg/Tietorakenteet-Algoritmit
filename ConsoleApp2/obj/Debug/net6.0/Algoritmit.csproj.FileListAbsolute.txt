@@ -1,0 +1,15 @@
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\Algoritmit.exe
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\Algoritmit.deps.json
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\Algoritmit.runtimeconfig.json
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\Algoritmit.dll
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\Algoritmit.pdb
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\Algoritmit.csproj.AssemblyReference.cache
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\Algoritmit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\Algoritmit.AssemblyInfoInputs.cache
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\Algoritmit.AssemblyInfo.cs
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\Algoritmit.csproj.CoreCompileInputs.cache
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\Algoritmit.dll
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\refint\Algoritmit.dll
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\Algoritmit.pdb
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\Algoritmit.genruntimeconfig.cache
+C:\Users\vilho\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ref\Algoritmit.dll
