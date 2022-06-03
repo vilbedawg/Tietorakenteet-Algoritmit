@@ -10,16 +10,8 @@ namespace Algoritmit
     {
         static void Main(string[] args)
         {
-            _LinkedList list = new _LinkedList();
-            
-            for(int i = 1; i < 11; i++)
-            {
-                list.AddToEnd(i);
-            }
 
-            list.Print();
             Console.WriteLine();
-            Console.WriteLine(list.Find(10));
         }
     }
 }
