@@ -10,11 +10,17 @@ namespace Algoritmit
     {
         static void Main(string[] args)
         {
-            Arrays solution = new Arrays();
-            int[] nums = { 12, 345, 2, 6, 7896 };
-            solution.FindNumbers(nums);
-        }
+            _LinkedList list = new _LinkedList();
+            
+            for(int i = 1; i < 11; i++)
+            {
+                list.AddToEnd(i);
+            }
 
+            list.Print();
+            Console.WriteLine();
+            Console.WriteLine(list.Find(10));
+        }
     }
 }
 

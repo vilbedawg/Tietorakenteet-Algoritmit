@@ -5,7 +5,7 @@
         public bool IsValid(string s)
         {
            
-            Stack<char> stack = new Stack<char>();
+           Stack<char> stack = new Stack<char>();
            foreach (char s2 in s)
             {
                 stack.Push(s2);
