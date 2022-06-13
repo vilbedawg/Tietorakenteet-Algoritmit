@@ -131,6 +131,110 @@ namespace Algoritmit
                 headNode.Print();
             }
         }
+        public void Reverse()
+        {
+            if (headNode == null)
+                return;
+
+            Node prev = null;
+            while (headNode != null)
+            {
+                Node next = headNode.next;
+                headNode.next = prev;
+                prev = headNode;
+                headNode = next;
+            }
+
+            headNode = prev;
+        }
+        public bool IsPalindrome()
+        {
+            Node fast = headNode;
+            Node slow = headNode;
+
+            while(fast != null && fast.next != null)
+            {
+                fast = fast.next.next;
+                slow = slow.next;
+            }
+
+            slow = reversed(slow);
+            fast = headNode;
+
+            while(slow != null)
+            {
+                if (slow.data != fast.data)
+                    return false;
+
+                slow = slow.next;
+                fast = fast.next;
+            }
+
+            return true;
+        }
+        public Node reversed(Node node)
+        {
+            Node prev = null;
+            while(node != null)
+            {
+                Node next = node.next;
+                node.next = prev;
+                prev = node;
+                node = next;
+            }
+
+            return prev;
+        }
+        public Node RemoveNthFromEnd(int n)
+        {
+            Node slow = headNode;
+            Node fast = headNode;
+            while (n >= 0)
+            {
+                if (fast == null)
+                    break;
+                fast = fast.next;
+                n--;
+
+            }
+            if (fast == null && n >= 0)
+                return headNode.next;
+
+            while (fast != null)
+            {
+                slow = slow.next;
+                fast = fast.next;
+            }
+
+            slow.next = slow.next.next;
+            return headNode;
+        }
+        public Node RemoveElements(int val)
+        {
+            if (headNode == null) return null;
+            Node fast = headNode;
+            while(fast != null && fast.next != null)
+            {
+                if (val == fast.data)
+                {
+                    headNode = headNode.next;
+                    fast = headNode;
+                }
+
+                else if (fast.next.data == val)
+                {
+                    fast.next = fast.next.next;
+                } 
+                else
+                {
+                    fast = fast.next;
+                }
+            }
+
+            if (headNode.data == val) headNode = null;
+
+            return fast;
+        }
     }
 
     public class _DoubleLinkedList
@@ -233,7 +337,6 @@ namespace Algoritmit
 
                 length--;
             }
-
         }
         public void RemoveFromBeginning()
         {
@@ -255,9 +358,11 @@ namespace Algoritmit
         }
         public void Print()
         {
-            if (headNode != null)
+            Node current = headNode;
+            while(current != null)
             {
-                headNode.Print();
+                Console.Write("|" + current.data + "|--->");
+                current = current.next;
             }
         }
     }
